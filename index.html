@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Esta pagina da como resultado todos los datos que un usuario en la red puede dar
+desde su navegador, dispositivo y localizacion, todos estos datos posibles son
+el resultado de consultas por IP y otros datos publicos, dados por el navegador
+es recomendable ocultar estos datos al navegar en la internet, no todo es 
+inseguro pero al estar conectados a una VPN esto puede resultar en mejor privacidad. -->
+<html lang="es">
+  <link rel="shortcut icon" href="/img/favicon-16x16.png">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Qué sabes de mi?</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <img src="./img/espejo.png" width="90" height="90" alt="Espejo">
+        <img src="./img/title.png" alt="Espejito">
+        <!-- <h1>Espejito, espejito...</h1> -->
+        <p>¿Qué sabes de mi?</p>
+      </div>
+      <div class="sections" id="sections"></div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.6/platform.min.js"
+      integrity="sha512-eYPrm8TgYWg3aa6tvSRZjN4v0Z9Qx69q3RhfSj+Mf89QqwOMqmwSlsVqfp4N8NVAcZe/YeUhh9x/nM2CAOp6cA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
